@@ -1,5 +1,5 @@
 # CuordiCrema
-Implementação inicial Cuor di Crema
+Implementação Cuor di Crema
 
 
 Desktop - Home
