@@ -13,5 +13,6 @@ Tablet - Home
 
 Mobile
 
-https://user-images.githubusercontent.com/104794351/187313458-57ff9302-021a-4c0b-86ad-289583ce9d01.mp4
+![image](https://user-images.githubusercontent.com/104794351/187313943-f0ff7780-94ea-4959-a3b0-caa247cc66c5.png)
+
 
