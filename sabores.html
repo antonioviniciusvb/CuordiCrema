@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html lang="pt_br">
+    <head>
+		<meta charset="utf-8">
+        <title>CuordiCrema</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="css/smartphone.css" type="text/css" rel="stylesheet" media="screen and (max-width:760px)">
+		<link href="css/tablet.css" type="text/css" rel="stylesheet" media="screen and (min-width: 761px) and (max-width:1024px)">
+		<script type="text/javascript" src="js/jquery-1.12.3.min%20(1).js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+		
+    </head>
+    
+    <body class="sabores">
+		<header class="grid">
+			<div>
+				<div id="logo" class="col-p-10 col-m-12 col-g-2"><a href="index.html"><img src="css/images/logo.png"></a></div>
+				<div class="menuMobile smartphone col-p-2 "><img src="css/images/menu.png"></div>
+				<nav id="menu" class="col-p-12 col-m-12 col-g-10">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a>
+                        <ul class="submenu" class="active">
+                            <li><a href="produtos.html">Gelato</a></li>
+                            <li><a href="produtos-cafes.html">Cafés Especiais</a></li>
+                        </ul>
+                    </li>
+                    
+					<li><a href="sabores.html" class="active">Sabores</a></li>
+					<li><a href="lojas.html">Lojas</a></li>
+					<li><a href="#">Franquias</a></li>
+					<li><a href="imprensa.html">Imprensa</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+				</nav>
+
+		</div>
+		</header>
+            
+        <section class="conteudocentro">
+            <div class="grid">
+                <div class="navegacao">
+                    <div id="filtro1" class="col-p-12 col-m-5 col-g-5">
+                    <p>
+                        <strong>Índice de sabores</strong><br>
+                        conheça todos os sabores na lista abaixo
+                    </p>
+                        <select name="sabores"></select>
+                        
+                    </div>
+                    
+                    
+                    <div id="infoFiltro" class="col-p-12 col-m-3 col-g-3">
+                        <p>ou filtre por tipo:<br>
+                            <span>LIMPAR FILTRO</span>
+                        </p>
+                    </div>
+                    
+                    
+                    <div id="filtro2" class="col-p-12 col-m-4 col-g-4">
+                        
+                        <img id="gordura" src="uploads/2015/01/gordura.png">
+                        
+						<img id="diet" src="uploads/2015/01/diet.png">
+
+						<img id="sabores3" src="uploads/2015/01/sabores3.png">
+
+						<img id="gluten"  src="uploads/2015/01/gluten.png">
+
+						<img id="lactose" src="uploads/2015/01/lactose.png" alt="lactose"> 
+                        
+                    </div>
+                </div> 
+                
+                <div class="col-p-12">
+                    <h1>
+                        SABORES DA SEMANA<br>
+                        <span>SABORES DISPONÍVEIS ESTA SEMANA</span>
+                    </h1>
+                </div>
+                
+                <div id="listaSabores">
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 gordura lactose gluten fragola-com-chocolate  ">
+                        <h3><span>FRAGOLA COM CHOCOLATE</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2016/05/7edbf0347c66bfae525c77e3e6f885e7-500x270.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/gordura.png"></li>
+                                <li><img src="uploads/2015/01/lactose.png"></li>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                         <p class="descricao">
+                             <span>A combinação do morango com o chocolate belga se transforma em um gelato apaixonante.</span>
+                         </p>
+                    </div>
+                    
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 gordura gluten chocolate-branco-com-framboesa">
+                        <h3><span>CHOCOLATE BRANCO COM FRAMBOESA</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2016/05/raspberry_and_white_chocolate-604x270.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/gordura.png"></li>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>O sabor do chocolate branco belga com framboesas oferece características únicas. É a combinação perfeita.</span>
+                        </p>
+                    </div>
+                
+                    <div class="col-p-12 col-m-6 col-g-4 gordura lactose gluten tangerina">
+                        <h3><span>TANGERINA</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2016/05/ff4e0713f3b551d1d05816ba3ff7534d-497x270.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/gordura.png"></li>
+                                <li><img src="uploads/2015/01/lactose.png"></li>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>Fruta cítrica conhecida como bergamota, mexerica, mimosa, vergamota e tanja. É rica em fibras, vitaminas e sais minerais. </span>                      
+                        </p>
+                    </div>
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 gordura gluten cheesecake-de-fragola ">
+                        <h3><span>CHEESECAKE DE FRAGOLA</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2016/05/6a01e77624c09bb6204e8809c8b87f51-564x270.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/gordura.png"></li>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>Se você gostar do verdadeiro cheesecake, tem que experimentar esta delícia!</span>
+                        </p>
+                    </div>
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 gordura lactose gluten acai-com-banana">
+                        <h3><span>AÇAÍ COM BANANA</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2016/05/IMG_0749a-682x1024-604x270.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/gordura.png"></li>
+                                <li><img src="uploads/2015/01/lactose.png"></li>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>Fruta nativa das várzeas da região amazônica. Açaí com Banana ajuda a manter a boa saúde e a longevidade, excelente fonte de energia. </span>         
+                        </p>
+                    </div>
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 gordura lactose gluten limao-com-capim-santo">
+                        <h3><span>LIMÃO COM CAPIM SANTO</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2016/04/Cha-de-capim-cidreira-gelado-604x270.png">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/gordura.png"></li>
+                                <li><img src="uploads/2015/01/lactose.png"></li>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>Clássico sabor do limão siciliano, com toque de Capim Santo. Possui inúmeros benefícios à saúde além do sabor surpreendente. </span>        
+                        </p>
+                    </div>
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 cioccotella ">
+                        <h3><span>CIOCCOTELLA</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2015/10/nuttela_cuor-di-crema_foto-leo-feltran_003-604x270.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                           
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>Fruta cítrica conhecida como bergamota, mexerica, mimosa, vergamota e tanja. É rica em fibras, vitaminas e sais minerais. </span>                
+                        </p>
+                    </div>
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 stracciatella gluten">
+                        <h3><span>STRACCIATELLA</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2015/02/stracciotella.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>O puro sabor do leite Jersey fresco é presenteado com gotas de um blend único de chocolate amargo Satongo da Tanzânia e chocolate do Equador ao leite.</span>
+                        </p>
+                    </div>
+                    
+                
+                    <div class="col-p-12 col-m-6 col-g-4 gordura lactose gluten diet maracuja-diet">
+                        <h3><span>MARACUJÁ DIET</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2015/01/maracuja1.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/diet.png"></li>
+                                <li><img src="uploads/2015/01/gordura.png"></li>
+                                <li><img src="uploads/2015/01/lactose.png"></li>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>Fruta cítrica conhecida como bergamota, mexerica, mimosa, vergamota e tanja. É rica em fibras, vitaminas e sais minerais.</span>                      
+                        </p>
+                    </div>
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 gluten cocco ">
+                        <h3><span>COCCO</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2015/01/cocco1.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>Um clássico sabor pelo qual a Cuordicrema utiliza apenas coco fresco do Brasil.</span>  
+                        </p>
+                    </div>
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 biscottino">
+                        <h3><span>BISCOTTINO</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2015/01/BISCOTTINO-604x270.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span>Um gelato cremoso com pedaços crocantes de biscoitos italianos de chocolate.</span>          
+                        </p>
+                    </div>
+                    
+                    <div class="col-p-12 col-m-6 col-g-4 gordura lactose gluten tangerina">
+                        <h3><span>GIANDUIA DIET</span></h3>
+                        <div class="foto">
+                            <img src="uploads/2015/01/Gianduia1.jpg">
+                        </div>
+                        <div class="selos">
+                            <ul>
+                                <li><img src="uploads/2015/01/diet.png"></li>
+                                <li><img src="uploads/2015/01/SABORES3.png"></li>                                    
+                                <li><img src="uploads/2015/01/gluten.png"></li>
+                            </ul>
+                        </div>
+                        <p class="descricao">
+                            <span> Uma receita original de Turim, nascida em 1806. Casamento perfeito do chocolate com a avelã italiana Tonda Gentile delle Langhe. Na versão sem açúcar.</span>
+                        </p>
+                    </div>
+                    
+                    </div>
+                </div>
+        </section>
+      
+
+		
+			<footer>
+				<div class="grid">
+					<div id="envioemail" class="col-p-12 col-m-4 newsLetter">
+						<input placeholder="digite seu e-mail e receba novidades" type="text" name="busca">
+						<button type="button">enviar</button>
+					</div>
+				
+					
+				<div class="col-p-12 col-m-8 floatright">
+					<ul class="redes">
+						<li>
+							<a href="#" target="_blank"><img src="css/images/Facebook_icon.svg_.png" widht="25" height="25">/Cuordicremafange/</a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img src="css/images/Instagram_by_r4st3reyez-d7z5x9q.png " width="25px">@Cuordicrema</a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img src="css/images/Twitter_logo_blue.png" width="25">@Cuordicrema</a>
+						</li>
+					</ul>
+				</div>
+					</div>
+				
+				<div class="sub">
+					
+					<div class="grid ">
+						
+						<div class="col-p-6 col-g-2 col-m-2">
+							<ul class="menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html">A Cuordicrema</a></li>
+								<li><a href="produtos.html">Produtos</a></li>
+								<li><a href="sabores.html">Sabores</a></li>
+							</ul>
+						</div>
+				
+						<div class="col-p-6 col-g-2 col-m-2">
+							<ul class="menu">
+								<li><a href="lojas.html">Lojas</a></li>
+								<li><a href="#">Franquia</a></li>
+								<li><a href="imprensa.html">Imprensa</a></li>
+								<li><a href="contato.html">Contato</a></li>
+							</ul>
+						</div>
+						<div  class="col-p-12 col-m-7 floatright">
+						      <p class="col8 copyright">Todos os direitos reservados © Cuordicrema - desenvolvido por BlueBossa</p>
+                        </div>
+					</div>
+					
+				</div>
+			</footer>
+		
+    </body>
+</html>
