@@ -15,8 +15,12 @@ Tablet - Home
 
 ![image](https://user-images.githubusercontent.com/104794351/187313077-0d923f58-09ae-4952-b28e-4123e4929af2.png)
 
-Tablet - Sabores
+Tablet - Home
 ![_D__driver_cuordicrema_produtos html (2)](https://user-images.githubusercontent.com/104794351/187314273-ae801273-1ea5-4c8c-a7db-eae870ad707d.png)
+
+Tablet - Sabores
+![_D__driver_cuordicrema_sabores html](https://user-images.githubusercontent.com/104794351/187314906-da067fa0-af63-4daa-8350-eee4a848c904.png)
+
 
 Mobile
 
