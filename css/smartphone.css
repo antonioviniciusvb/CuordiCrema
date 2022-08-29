@@ -1,0 +1,312 @@
+
+ 
+	.smartphone, .mobile{display: block;}
+	.desktop{display: none;}
+    .table{display: none;}
+
+	.grid{padding: 0 20px; box-sizing: border-box;}
+	img{max-width: 100%; height: auto;}
+    .menuMobile{cursor: pointer;}
+    #menu{margin: 0; text-align: center;display: none;width: 100% !important}
+	#menu ul li{display: block;width: 100%;clear: both; margin:0;}
+	#menu ul li+li{margin: 0;border-top: 1px solid #fff;}
+	#menu ul li a{padding: 10px;margin:0;display: block;} 
+	.menuMobile{margin: 50px auto 0; display: block;}
+    
+    footer .sub  li a{display: block;padding: 8px 0px;}
+      .redes{
+        width: 100%;
+    }
+    
+    
+    .redes li {
+        display: block;
+        margin-left: 0;
+        position: relative;
+        top: 0;
+        clear: both;
+        text-align: left;
+    }
+        
+    .redes li a img {
+        position: relative;
+        top: 7px;
+        width: 30px;
+        height: auto;
+        }   
+    
+     footer .sub  li a{display: block;padding: 8px 0px;}
+    
+    .submenu{
+    display: block;
+    box-shadow: none;
+    position: relative;
+    background: #fcfbd5;
+    width: 100%;
+    top: 0;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+ }
+    #menu .submenu li a {
+        text-align: center;
+    }
+    
+    .lojas .conteudocentro img,
+    .produtos .conteudoCentro img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .navegacao #filtro1{
+        border: none;
+        margin-bottom: 10px;
+    }
+    
+    .navegacao #infoFiltro{
+       padding-left: 8px;
+    }
+    
+    .lojas p{
+        margin: 10px 0;
+    }
+    
+    .lojas .conteudocentro > div+div{
+        margin-top: 50px;
+    }
+    
+    .blog .item img{
+        margin-bottom: 20px;
+    }
+    
+    *+.sidebar{margin-top: 40px;}
+    
+    .blog form label {
+        width: 100%;
+        text-align: left;
+
+    }
+    
+    .blog form textarea, .blog form input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 15px 0;
+    }
+    
+    .blog form textarea{
+        max-height: 100%;
+        min-width: 100%;
+    }
+    
+    .sidebar .chamadaContato {
+        margin-top: 20px;
+    }
+    
+    section.contato > div {
+        background-position: left bottom;
+        padding-bottom:98px;
+        background-size: contain;
+    }
+    
+
+
+/* SmartPhone*/
+@media screen and (max-width: 350px){
+    
+    .grid{width: 100%;}
+    
+	#envioemail input {width: auto;}
+	.floatright {
+    	float: right;
+    	overflow: hidden;		
+        
+	}
+    
+      #envioemail input {
+        width: 100%;
+        border-right:  1px solid #3d3f42;
+      }
+        #envioemail button{
+            
+            width: 100%;
+            margin-bottom: 30px;
+            margin-top: 2px;
+        }
+    
+    
+    .redes li a{
+        font-size: 13px; 
+    }
+    .redes li a img {
+        position: relative;
+        top: 7px;
+        width: 30px;
+        height: auto;
+        }   
+    
+    .redes{
+        
+        text-align: left;
+    }
+    
+	
+	#logo{text-align: center;}
+    
+    #banner .col-p-6{width: 100%;}
+    footer .sub .col-p-6{width: 100%;}
+    footer .sub .col-p-6 ul li{text-align: center;}
+    
+    #textoapresentacao{    
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 100;
+        color: #3d3f42;
+    }
+	
+}
+@media screen and (min-width: 350px) and (max-width:468px){
+    .grid{
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+    #banner .col-p-6{width: 100%;}
+    .newsLetter{margin-bottom: 20px;}
+    #envioemail input{width: 68%;}
+    #envioemail button{width: 30%;}
+    
+  
+    
+}
+@media screen and (min-width: 468px) and (max-width:568px){
+        .grid{
+        width: 450px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .newsLetter{margin-bottom: 20px;}
+    #envioemail input{width: 68%;}
+    #envioemail button{width: 30%;}
+    
+    .menuMobile{width: 40px;}
+    
+    #banner .col-p-6{min-height: 226px;margin-bottom: 20px;}
+    
+    
+    #footer > .grid{position: relative;}
+   .home footer > .grid div{position: absolute;top: -285px;left: 225px;width: 50%;}
+    
+    #envioemail input {
+        width: 80%;
+        border-right: 1px solid #3d3f42;
+        margin-left: 28px;
+        margin-left: 20px;
+      }
+    
+    #envioemail button{
+            
+            width: 80%;
+            margin-bottom: 30px;
+            margin-top: 2px;
+            margin-left: 20px;
+        }
+    
+    .home .redes li a{
+        top: 74px;
+        left: 40px;
+        font-size: 13px;
+
+}
+    
+    
+}
+
+@media screen and (min-width: 568px) and (max-width:668px){
+     .grid{
+        width: 550px;
+        margin: 0 auto;
+    }
+    
+    #banner .col-p-6{width: 33.3333%;}
+    .newsLetter{margin-bottom: 20px;}
+    #envioemail input{width: 68%;}
+    #envioemail button{width: 30%;}
+    
+    .menuMobile img{width: 40px;}
+    
+    body footer > .grid .redes li { display: inline-block;left: 0px;}
+    
+    #listaSabores .col-g-4{
+        width: 46%;
+        margin: 0 2%;
+    }
+    
+    #listaSabores .foto{
+        height: 93px;
+    }
+    
+    #infoFiltro, #filtro2{
+        width: 50%;
+    }
+    
+    
+    .navegacao #filtro2 img{
+        width: 38px !important;
+    }
+    
+}
+
+@media screen and (min-width: 668px) and (max-width:760px){
+    .grid{
+        width: 650px;
+        margin: 0 auto;
+    }
+    
+    #banner .col-p-6{width: 33.3333%;}
+    .newsLetter{margin-bottom: 20px;}
+    #envioemail input{width: 68%;}
+    #envioemail button{width: 30%;}
+    
+    .menuMobile img{width: 40px;}
+    
+    body footer > .grid .redes li { display: inline-block;}
+    
+    #listaSabores .col-g-4{
+        width: 46%;
+        margin: 0 2%;
+    }
+    
+    #infoFiltro, #filtro2{
+        width: 50%;
+        
+    }
+ 
+     section.contato > div{
+         padding-bottom: 150px !important;
+     }
+    
+}
+
+.orientacao{
+    background: #b60b0b;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+
+@media screen and (orientation:landscape){
+    .landscape{display: block;}
+    .portrait{display: none;}
+}
+
+@media screen and (orientation:portrait){
+     .landscape{display: none;}
+    .portrait{display: block;}
+}
+/*fim smartphone*/

@@ -1,0 +1,85 @@
+.desktop{display: none;}
+.table{display: block;}
+.smartphone,.mobile{display: none;}
+
+    .grid{width: 750px;margin: 0 auto;}
+    
+    #logo{margin-top: 0;}
+    #logo a {text-align: center;}
+    #logo a img{display: block;margin: -28px auto 0;position: relative;}
+   
+    #menu{ 
+        margin: -24px 0 0 0;
+        background: #fcfbd5;
+        border-top: 3px solid #3d3f42;
+        border-bottom: 3px solid #3d3f42;
+        padding-top: 27px;
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    #menu ul li a {padding: 10px 22px;}
+    #menu ul li, #menu ul li+li {margin-left: 0;}
+    
+    header .grid{border: none;}
+    
+    
+    .redes a {font-size: 14px;}
+    #envioemail input{width: 68%;}
+    #envioemail button{width: 30%;}
+
+    footer > .grid {border-top: none;}
+    
+    .produtos h2 {
+    font-size: 22px;
+    line-height: 96%;
+    }
+    
+    .produtos h3{
+        font-size: 18px;
+    }
+    
+    .produtos #filtro2 img{
+        width: 42px;
+        height: auto;
+    }
+    
+    .navegacao #filtro2 img{
+        margin: 5px 0px 0px 0px;
+        width: 44px;
+    }
+    
+    #listaSabores .foto {
+        height: 110px;
+     
+    }
+    #listaSabores h3 span {
+ 
+    font-size: 22px;
+    }
+    
+    .lojas .conteudocentro img{
+        width: 100%;
+    }
+    
+    .lojas .conteudocentro > div+div+div{
+        margin-top: 50px;
+    }
+    
+    .sidebar * {
+        word-break: break-all;
+    }
+    
+    .blog form textarea, .blog form input[type=text] {
+        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
+    }
+    
+    section.contato > div{
+        padding-bottom: 128px;
+        background-size: contain;
+        background-position: left bottom;
+        
+    }
+
