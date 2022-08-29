@@ -1,5 +1,5 @@
 # CuordiCrema
-Implementação Cuor di Crema
+Implementação Cuor di Crema - Desktop, Tablet e Mobile.
 
 
 Desktop - Home
